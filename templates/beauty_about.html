@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About BLENZE..!</title>
+<style>
+body{ background-color:black;}
+h2{
+    margin-top: 15vmin;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color:red;
+}
+h2:hover{
+    color:aqua;
+}
+p{color:white;
+    font-size:20px;
+    font-family: arial;
+    font-weight: bold;
+}
+img{ margin-top:10vmin;
+    margin-bottom:10vmin;
+    float:center;
+    width:50vw;
+    height:60vh;
+}
+span{
+    font-size: 22px;
+    color:plum;
+}
+a{  margin-top: 10vmin;
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:20px ;
+}a:hover{
+    color: rgb(254, 44, 7);
+}
+.menu{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:aliceblue;
+    align-items: center;
+   padding:0 10px
+}
+.menu a:hover{
+    color:orange;
+}
+</style>
+    </head>
+    <body><center>
+        <h2>ABOUT BLENZE SALON</h2> 
+        <p>BLENZE Salon, India's first and leading chain of beauty salons, offers<br>
+         expert services in hairstyling, skin and beauty care. It is dedicated to<br>
+          the contemporary Indian woman's exploration of the fine art of beauty.<br>
+         Known for our magical concoction of stunning make-up, fabulous hair and<br>
+          excellent skin services, we bring the backstage expertise and experience <br>
+          of BLENZE Fashion Week to modern Indian women through a team of over 3500+<br>
+           highly trained professional stylists. BLENZE Salons are dedicated towards<br>
+            the evolvement of the modern Indian woman and her exploration of beauty.<br>
+         Professionally trained hair and makeup experts with countless shows under<br>
+          our belt and outstanding skin services come together at BLENZE Salon and <br>
+          offer an unforgettable experience.</p>
+        <img src="{{ url_for('static', filename='images/beauty_salon_6.jpg') }}" alt="About BLENZE">
+        
+        <h2>MISSION</h2>
+        <p>Beautify the Future: Bring Alive Expertise, Experience & Excitement <br>
+         from the Backstage of BLENZE Fashion Week To Beautify Lives Responsibly</p>
+        
+        <h2>THE BRIDAL TEAM</h2>
+        <p>"At BLENZE Salon, we go the extra mile to ensure every bride feels confident<br>
+         to sparkle and create picture-perfect memories that last a lifetime. We <br>
+         understand the uniqueness of each bride and strive to enhance her beauty<br>
+         while staying true to her individuality. From pre-wedding events to the<br>
+         big day itself, we're with you every step of the way on this important<br>
+         journey. Our experts undergo extensive training to bring to you best-in-<br>
+         class and latest trends from the world of beauty." – Anupma Katyal, <br>
+         National Creative Director- Makeup, BLENZE Salon.<br>
+         When you choose BLENZE Salon for your bridal appointment, rest assured <br>
+         you're in the hands of highly trained professionals who are trained by<br>
+         BLENZE Fashion Week experts, committed to making your dream look a reality.</p>
+        <img src="{{ url_for('static', filename='images/beauty_salon_5.jpg') }}" alt="Bridal Team">
+        
+        <h2>JOIN US FOR A CAREER</h2>
+        <h3>WHERE SUCCESS MEETS STYLE</h3>
+        <p>Intensive training, a fast-track career growth path and expert guidance.<br>
+         Explore opportunities to be a part of India's biggest beauty giant.<br><br>
+         <span>Come Beautify the Future with us!</span></p>
+        <a href="{{ url_for('contact') }}">For More Details....</a>
+    </center>
+</p>
+<h2>JOIN US FOR A CAREER</h2>
+<h3>WHERE SUCCESS MEETS STYLE</h3>
+
+<p>Intensive training, a fast-track career growth path and expert guidance.<br>
+ Explore opportunities to be a part of India’s biggest beauty giant.<br>
+<br>
+<span>Come Beautify the Future with us!</span></p>
+<a href="beauty_contact.html">For More Details....</a>
+</center> 
+ </body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="EQ7xs7av0Sj6GWiA8JDIJ04YbIsNgkg5dAYWDffu">
+    <title>Lakmē Salon| Lakme Salon</title>
+    <!-- Fonts -->
+    <!-- Styles -->
+    <!--link rel="stylesheet" href="https://www.lakmesalon.in/css/app.css"-->
+    <link href="https://www.lakmesalon.in/css/styles.css" rel="stylesheet" />
+    <link href="https://www.lakmesalon.in/css/slick-theme.css" rel="stylesheet" />
+    <link href="https://www.lakmesalon.in/css/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.lakmesalon.in/css/fontawesome-all.min.css">
+    <link href="https://www.lakmesalon.in/css/main.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-973264946"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-973264946');
+
+        function gtag_report_conversion(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-973264946/CjlBCI_Uko0YELKwi9AD',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
+    <!-- linked In code -->
+    <script type="text/javascript">
+        _linkedin_partner_id = "5457146";
+
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function(l) {
+
+            if (!l) {
+                window.lintrk = function(a, b) {
+                    window.lintrk.q.push([a, b])
+                };
+
+                window.lintrk.q = []
+            }
+
+            var s = document.getElementsByTagName("script")[0];
+
+            var b = document.createElement("script");
+
+            b.type = "text/javascript";
+            b.async = true;
+
+            b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+
+                s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+
+    <noscript>
+
+        <img height="1" width="1" style="display:none;" alt="" src=https://px.ads.linkedin.com/collect/?pid=5457146&fmt=gif />
+
+    </noscript>
+</head>
+<style>
+    #signup {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 2rem;
+        max-width: 290px;
+    }
+
+    @media  screen and (max-width:767px) {
+        #signup {
+            max-width: 80%;
+            left: 10%;
+            bottom: -20%
+        }
+    }
+
+    .mobile-header {
+        margin: 5em 0;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    @media  only screen and (max-width: 991px) {
+        .mobile-header {
+            margin: 3em 0;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    }
+</style>
+
+<body id="page-top" class="font-sans antialiased lakme service">
+    <!-- Navigation-->
+    <nav class="lakme-nav navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" style="flex-direction: column;">
+<div class="top-logo-bar">
+   <div class="container px-5">
+   <a class="navbar-brand" href="https://www.lakmesalon.in">
+   <!-- <svg class="logo" version="1.1" id="layer" x="0px" y="0px" viewBox="0 0 215 25" xml:space="preserve" sodipodi:docname="lakme-salon-vector-logo.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs69"/><sodipodi:namedview id="namedview67" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.0888577" inkscape:cx="391.6949" inkscape:cy="205.72018" inkscape:window-width="1366" inkscape:window-height="705" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer"/><style type="text/css" id="style40">.st0{fill:#FFFFFF;}</style><path class="st0" d="m 141.90884,10.150744 c 0.1138,0 0.47413,0.17068 0.83447,0.77756 l 2.8258,4.72232 h -7.32053 l 2.8258,-4.72232 c 0.3793,-0.60688 0.70171,-0.77756 0.83446,-0.77756 m 2.67408,-0.3034498 c -0.7017,-1.17584 -1.63099,-1.83962 -2.67408,-1.83962 -1.02411,0 -1.97236,0.66378 -2.67407,1.83962 l -7.88949,13.1997098 -0.18965,0.32241 h 2.52236 l 0.0569,-0.11379 3.62233,-6.06883 h 9.14118 l 3.62234,6.06883 0.0759,0.11379 h 2.48443 l -0.17069,-0.32241 -7.92741,-13.1997098" id="path44" style="stroke-width:0.189651"/><path class="st0" d="m 125.92126,14.285134 h -8.64809 c -1.23273,0 -2.21891,-1.00516 -2.21891,-2.21892 v -0.18965 c 0,-1.23273 1.00515,-2.2189198 2.21891,-2.2189198 h 11.0946 v -1.53617 h -11.28424 c -2.29479,0 -4.17233,1.72582 -4.17233,3.8499198 0,2.12409 1.87754,3.83094 4.17233,3.83094 h 8.34464 c 1.21377,0 2.21891,1.02412 2.21891,2.23789 v 1.66893 c 0,1.23273 -1.00514,2.21891 -2.21891,2.21891 h -12.36525 v 1.53618 h 12.87731 c 2.12409,0 3.86888,-1.72583 3.86888,-3.84992 v -1.47928 c 0,-2.14306 -1.74479,-3.84991 -3.88785,-3.84991" id="path46" style="stroke-width:0.189651"/><path class="st0" d="m 157.59298,21.909104 c -0.39826,0 -0.70171,-0.32241 -0.70171,-0.72067 V 8.0835442 h -2.14305 V 21.093604 c 0,1.28963 1.06205,2.33271 2.35167,2.33271 h 12.15663 v -1.51721 h -11.66354" id="path48" style="stroke-width:0.189651"/><path class="st0" d="M 212.06076,20.998774 V 8.2731942 8.0456142 h -2.0672 V 21.472904 l -0.30344,0.30344 -0.038,0.019 h -0.019 c -0.0759,0 -0.22757,-0.0569 -0.49309,-0.36034 l -0.0379,-0.019 c -0.18965,-0.18966 -0.62585,-0.66378 -1.23273,-1.34653 -0.68274,-0.75861 -1.51721,-1.82065 -2.42753,-2.93959 -0.72068,-0.91032 -1.49824,-1.82065 -2.21892,-2.67407 -1.95341,-2.25685 -4.41887,-5.1016198 -5.10161,-5.7274698 l -0.32241,-0.24654 -0.17069,-0.0759 -0.15171,-0.11378 -0.17069,-0.0948 c -0.30345,-0.11379 -0.58792,-0.17069 -0.89136,-0.17069 -1.27067,0 -2.31374,1.00516 -2.37064,2.2947898 l -0.019,0.0948 0.019,0.0759 v 12.74455 0.22759 h 2.0672 v -13.44627 l 0.28447,-0.3034398 h 0.0569 c 0.0759,0 0.22758,0.0759 0.49309,0.3224098 l 0.0569,0.038 c 0.20861,0.20862 0.60688,0.64481 1.2517,1.34652 1.00515,1.13791 2.56029,2.97752 4.62748,5.42402 0.85343,0.98618 1.72582,1.99134 2.46547,2.90167 1.27066,1.47927 2.25684,2.63614 2.65511,2.99648 l 0.32241,0.26551 0.17068,0.11379 0.15172,0.0948 0.18966,0.0759 c 0.28447,0.13276 0.58792,0.18965 0.87239,0.18965 1.27066,0 2.31374,-1.00515 2.37064,-2.29477 l 0.019,-0.0948 -0.0379,-0.0948" id="path50" style="stroke-width:0.189651"/><path class="st0" d="m 188.33542,11.876564 v 7.85156 c 0,1.23272 -0.98619,2.21891 -2.21892,2.21891 h -11.03769 c -1.21377,0 -2.23788,-0.98619 -2.23788,-2.21891 v -7.85156 c 0,-1.23273 1.02411,-2.2189198 2.23788,-2.2189198 h 11.03769 c 1.23273,0 2.21892,0.9861898 2.21892,2.2189198 m -1.70686,-3.7550898 h -12.02388 c -2.14306,0 -3.88785,1.72582 -3.88785,3.8688798 v 7.64294 c 0,2.10512 1.74479,3.84991 3.88785,3.84991 h 12.02388 c 2.12408,0 3.86888,-1.72583 3.86888,-3.84991 v -7.64294 c -0.019,-2.1430598 -1.7448,-3.8688798 -3.86888,-3.8688798" id="path52" style="stroke-width:0.189651"/><polygon class="st0" points="290.3,282.3 276.7,289.9 276.7,322.1 265.3,322.1 265.3,243.7 276.7,243.7 276.7,277.4 339,243.7 358.9,243.7 300.2,276.3 361.4,322.1 344.8,322.1 " id="polygon54" transform="matrix(0.18965102,0,0,0.18965102,-8.1215,-37.89376)"/><path class="st0" d="m 4.2247813,23.192834 c -1.024115,0 -1.574103,-0.77756 -1.574103,-1.5741 V 8.3052242 h 2.180987 V 21.296324 H 18.467574 v 1.87755 H 4.2247813 Z" id="path56" style="stroke-width:0.189651"/><path class="st0" d="m 26.319125,16.668844 4.153359,-7.1688198 h 0.01897 l 4.153359,7.1688198 z m 6.144693,-7.5860398 c -0.606882,-0.94826 -1.194801,-1.1948 -1.953406,-1.1948 h -0.07586 c -0.758601,0 -1.346518,0.22757 -1.953405,1.1948 L 20.269259,23.211804 h 2.332708 l 2.655113,-4.64645 h 10.430806 l 2.655114,4.64645 h 2.332706 z" id="path58" style="stroke-width:0.189651"/><path class="st0" d="m 87.709164,23.192834 c -0.77756,0 -1.5172,-0.62585 -1.5172,-1.49824 V 9.8224442 c 0,-0.8724 0.72067,-1.49825 1.5172,-1.49825 H 101.85713 V 10.106914 H 88.240194 v 4.66541 h 10.260118 v 1.93445 H 88.240194 v 4.70334 h 13.616936 v 1.78272 z" id="path60" style="stroke-width:0.189651"/><path class="st0" d="m 73.030174,18.546384 c 0.8155,0 1.27067,-0.36034 1.59308,-0.7017 0,0 6.75157,-7.07399 7.1119,-7.54812 h 0.019 v 12.87731 h 1.99134 v -13.16179 l -0.0379,-0.4361898 c -0.13276,-0.75861 -0.64481,-1.55514 -1.74479,-1.55514 h -0.0759 c -0.85344,0 -1.42239,0.64482 -1.51722,0.72067 l -7.33949,7.9084598 h -0.019 l -7.35846,-7.8894898 c -0.0759,-0.0759 -0.64481,-0.72068 -1.5172,-0.72068 h -0.0759 c -1.09997,0 -1.61203,0.79654 -1.74478,1.55514 l -0.0569,0.4361998 v 13.16178 h 1.99133 v -12.8773 h 0.019 c 0.36034,0.47412 7.11192,7.54811 7.11192,7.54811 0.32241,0.3224 0.77757,0.70171 1.59307,0.70171 h 0.0569 z" id="path62" style="stroke-width:0.189651"/><polygon class="st0" points="510.5,220.4 511.6,229.3 571.2,221.8 570.1,212.9 " id="polygon64" transform="matrix(0.18965102,0,0,0.18965102,-8.1215,-37.89376)"/></svg> -->
+    <img class="logo" src="assets/images/lakmelogo.png" alt="">    
+</a>
+    
+   <ul class="navbar-nav ms-auto right-menu">
+        <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/contact">Contact Us<span class="link-underline"></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/store-locator">Salon Locator <span class="link-underline"></span></a></li>
+          </ul>
+  <button class="navbar-toggler collapsed ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon">
+         <span class="navbar-toggler-icon-new"></span>
+         <span class="navbar-toggler-icon-new"></span>
+         <span class="navbar-toggler-icon-new"></span>
+        </div>
+     </button>
+</div>
+</div>
+
+
+<div class="container px-5 desk-menu">
+    <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
+    <a class="navbar-brand mob-logo" href="#page-top">
+    <!-- <svg class="logo" version="1.1" id="layer" x="0px" y="0px" viewBox="0 0 215 25" xml:space="preserve" sodipodi:docname="lakme-salon-vector-logo.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs69"/><sodipodi:namedview id="namedview67" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.0888577" inkscape:cx="391.6949" inkscape:cy="205.72018" inkscape:window-width="1366" inkscape:window-height="705" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer"/><style type="text/css" id="style40">.st0{fill:#FFFFFF;}</style><path class="st0" d="m 141.90884,10.150744 c 0.1138,0 0.47413,0.17068 0.83447,0.77756 l 2.8258,4.72232 h -7.32053 l 2.8258,-4.72232 c 0.3793,-0.60688 0.70171,-0.77756 0.83446,-0.77756 m 2.67408,-0.3034498 c -0.7017,-1.17584 -1.63099,-1.83962 -2.67408,-1.83962 -1.02411,0 -1.97236,0.66378 -2.67407,1.83962 l -7.88949,13.1997098 -0.18965,0.32241 h 2.52236 l 0.0569,-0.11379 3.62233,-6.06883 h 9.14118 l 3.62234,6.06883 0.0759,0.11379 h 2.48443 l -0.17069,-0.32241 -7.92741,-13.1997098" id="path44" style="stroke-width:0.189651"/><path class="st0" d="m 125.92126,14.285134 h -8.64809 c -1.23273,0 -2.21891,-1.00516 -2.21891,-2.21892 v -0.18965 c 0,-1.23273 1.00515,-2.2189198 2.21891,-2.2189198 h 11.0946 v -1.53617 h -11.28424 c -2.29479,0 -4.17233,1.72582 -4.17233,3.8499198 0,2.12409 1.87754,3.83094 4.17233,3.83094 h 8.34464 c 1.21377,0 2.21891,1.02412 2.21891,2.23789 v 1.66893 c 0,1.23273 -1.00514,2.21891 -2.21891,2.21891 h -12.36525 v 1.53618 h 12.87731 c 2.12409,0 3.86888,-1.72583 3.86888,-3.84992 v -1.47928 c 0,-2.14306 -1.74479,-3.84991 -3.88785,-3.84991" id="path46" style="stroke-width:0.189651"/><path class="st0" d="m 157.59298,21.909104 c -0.39826,0 -0.70171,-0.32241 -0.70171,-0.72067 V 8.0835442 h -2.14305 V 21.093604 c 0,1.28963 1.06205,2.33271 2.35167,2.33271 h 12.15663 v -1.51721 h -11.66354" id="path48" style="stroke-width:0.189651"/><path class="st0" d="M 212.06076,20.998774 V 8.2731942 8.0456142 h -2.0672 V 21.472904 l -0.30344,0.30344 -0.038,0.019 h -0.019 c -0.0759,0 -0.22757,-0.0569 -0.49309,-0.36034 l -0.0379,-0.019 c -0.18965,-0.18966 -0.62585,-0.66378 -1.23273,-1.34653 -0.68274,-0.75861 -1.51721,-1.82065 -2.42753,-2.93959 -0.72068,-0.91032 -1.49824,-1.82065 -2.21892,-2.67407 -1.95341,-2.25685 -4.41887,-5.1016198 -5.10161,-5.7274698 l -0.32241,-0.24654 -0.17069,-0.0759 -0.15171,-0.11378 -0.17069,-0.0948 c -0.30345,-0.11379 -0.58792,-0.17069 -0.89136,-0.17069 -1.27067,0 -2.31374,1.00516 -2.37064,2.2947898 l -0.019,0.0948 0.019,0.0759 v 12.74455 0.22759 h 2.0672 v -13.44627 l 0.28447,-0.3034398 h 0.0569 c 0.0759,0 0.22758,0.0759 0.49309,0.3224098 l 0.0569,0.038 c 0.20861,0.20862 0.60688,0.64481 1.2517,1.34652 1.00515,1.13791 2.56029,2.97752 4.62748,5.42402 0.85343,0.98618 1.72582,1.99134 2.46547,2.90167 1.27066,1.47927 2.25684,2.63614 2.65511,2.99648 l 0.32241,0.26551 0.17068,0.11379 0.15172,0.0948 0.18966,0.0759 c 0.28447,0.13276 0.58792,0.18965 0.87239,0.18965 1.27066,0 2.31374,-1.00515 2.37064,-2.29477 l 0.019,-0.0948 -0.0379,-0.0948" id="path50" style="stroke-width:0.189651"/><path class="st0" d="m 188.33542,11.876564 v 7.85156 c 0,1.23272 -0.98619,2.21891 -2.21892,2.21891 h -11.03769 c -1.21377,0 -2.23788,-0.98619 -2.23788,-2.21891 v -7.85156 c 0,-1.23273 1.02411,-2.2189198 2.23788,-2.2189198 h 11.03769 c 1.23273,0 2.21892,0.9861898 2.21892,2.2189198 m -1.70686,-3.7550898 h -12.02388 c -2.14306,0 -3.88785,1.72582 -3.88785,3.8688798 v 7.64294 c 0,2.10512 1.74479,3.84991 3.88785,3.84991 h 12.02388 c 2.12408,0 3.86888,-1.72583 3.86888,-3.84991 v -7.64294 c -0.019,-2.1430598 -1.7448,-3.8688798 -3.86888,-3.8688798" id="path52" style="stroke-width:0.189651"/><polygon class="st0" points="290.3,282.3 276.7,289.9 276.7,322.1 265.3,322.1 265.3,243.7 276.7,243.7 276.7,277.4 339,243.7 358.9,243.7 300.2,276.3 361.4,322.1 344.8,322.1 " id="polygon54" transform="matrix(0.18965102,0,0,0.18965102,-8.1215,-37.89376)"/><path class="st0" d="m 4.2247813,23.192834 c -1.024115,0 -1.574103,-0.77756 -1.574103,-1.5741 V 8.3052242 h 2.180987 V 21.296324 H 18.467574 v 1.87755 H 4.2247813 Z" id="path56" style="stroke-width:0.189651"/><path class="st0" d="m 26.319125,16.668844 4.153359,-7.1688198 h 0.01897 l 4.153359,7.1688198 z m 6.144693,-7.5860398 c -0.606882,-0.94826 -1.194801,-1.1948 -1.953406,-1.1948 h -0.07586 c -0.758601,0 -1.346518,0.22757 -1.953405,1.1948 L 20.269259,23.211804 h 2.332708 l 2.655113,-4.64645 h 10.430806 l 2.655114,4.64645 h 2.332706 z" id="path58" style="stroke-width:0.189651"/><path class="st0" d="m 87.709164,23.192834 c -0.77756,0 -1.5172,-0.62585 -1.5172,-1.49824 V 9.8224442 c 0,-0.8724 0.72067,-1.49825 1.5172,-1.49825 H 101.85713 V 10.106914 H 88.240194 v 4.66541 h 10.260118 v 1.93445 H 88.240194 v 4.70334 h 13.616936 v 1.78272 z" id="path60" style="stroke-width:0.189651"/><path class="st0" d="m 73.030174,18.546384 c 0.8155,0 1.27067,-0.36034 1.59308,-0.7017 0,0 6.75157,-7.07399 7.1119,-7.54812 h 0.019 v 12.87731 h 1.99134 v -13.16179 l -0.0379,-0.4361898 c -0.13276,-0.75861 -0.64481,-1.55514 -1.74479,-1.55514 h -0.0759 c -0.85344,0 -1.42239,0.64482 -1.51722,0.72067 l -7.33949,7.9084598 h -0.019 l -7.35846,-7.8894898 c -0.0759,-0.0759 -0.64481,-0.72068 -1.5172,-0.72068 h -0.0759 c -1.09997,0 -1.61203,0.79654 -1.74478,1.55514 l -0.0569,0.4361998 v 13.16178 h 1.99133 v -12.8773 h 0.019 c 0.36034,0.47412 7.11192,7.54811 7.11192,7.54811 0.32241,0.3224 0.77757,0.70171 1.59307,0.70171 h 0.0569 z" id="path62" style="stroke-width:0.189651"/><polygon class="st0" points="510.5,220.4 511.6,229.3 571.2,221.8 570.1,212.9 " id="polygon64" transform="matrix(0.18965102,0,0,0.18965102,-8.1215,-37.89376)"/></svg> -->
+        <img class="logo" src="assets/images/lakmelogo.png" alt="">
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon">
+         <span class="navbar-toggler-icon-new"></span>
+         <span class="navbar-toggler-icon-new"></span>
+         <span class="navbar-toggler-icon-new"></span>
+        </div>
+     </button>
+    <div class="collapse navbar-collapse main-navbar" id="navbarResponsive">
+
+        <ul class="navbar-nav ">
+               <li class="nav-item"><a class="nav-link" >Services</a>
+               <div class="mega-menu">
+                    <div class="container px-5">
+                     <div class="row">
+                        <div class="col-md-2">
+                            <a href="javascriot:void(0)" class="back first">Services</a>
+                            <a href="https://www.lakmesalon.in/all-services" class="menu-cat">Services</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="back">Skin</a>
+                            <a href="#" class="menu-cat">Skin</a>
+                            <ul class="submenu">
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-skincare-treatments-1">Skin Care - Treatments</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-bodycare-2">Body Care</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-skincare-3">Skin Care</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-skincare-basics-4">Skin Care - Basics</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-skincare-depilation-5">Skin Care - Depilation</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#skin-skincare-treatments-1">All Skin Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="back">Hair</a>
+                            <a href="#" class="menu-cat">Hair</a>
+                            <ul class="submenu">
+                                <!--li><a href="https://www.lakmesalon.in/all-services#hair-allhairservices-12">Hair</a></li-->
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-form-7">Form</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-haircare-8">Hair Care</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-colors-9">Colors</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-styling-10">Styling</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-haircut-11">Haircut</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hair-form-7">All Hair Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                        <a href="#" class="back">Makeup</a>
+                        <a href="#" class="menu-cat">Makeup</a>
+                            <ul class="submenu">
+                                <li><a href="https://www.lakmesalon.in/all-services#makeup-styling-13">Styling</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#makeup-sareedrape-14">Saree Drape</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#makeup-makeup-15">Makeup</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#makeup-styling-13">All Makeup Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                        <a href="#" class="back">Hands &amp; Feet</a>
+                            <a href="#" class="menu-cat">Hands &amp; Feet</a>
+                            <ul class="submenu">
+                                <li><a href="https://www.lakmesalon.in/all-services#hands&amp;feet-handcare-17">Hand Care</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hands&amp;feet-feetcare-18">Feet Care</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hands&amp;feet-nails-19">Nails</a></li>
+                                <li><a href="https://www.lakmesalon.in/all-services#hands&amp;feet-handcare-17">All Hand & Feet Services</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+               </li>
+               <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/bridals">Bridal</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://shop.lakmesalon.in" target="_blank">Shop Products</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/runway-rewards">Runway Rewards</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/offers">Offers</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://www.lakmesalon.in/book-appointment" target="_blank">Book Appointment</a></li>
+               
+               <li class="nav-item"><a class="nav-link" href="#!">Become A Partner</a>
+               
+               <div class="mega-menu">
+                    <div class="container px-5">
+                     <div class="row">  
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/lakme-advantage" class="menu-cat">Lakme advantage</a></div>
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/success-stories" class="menu-cat">Success Stories</a></div>
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/franchisee-criteria" class="menu-cat">Franchisee Criteria</a></div>
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/franchisee-process" class="menu-cat">Franchisee Process</a></div>
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/industry-overview" class="menu-cat">Industry Overview</a></div>
+                        <div class="col-md-2"><a href="https://www.lakmesalon.in/join-us" class="menu-cat">Join Us</a></div>
+                    </div>
+                    </div>
+                </div>
+               </li>
+           </ul>
+    </div>
+    
+</div>
+</nav>    <div class="min-h-screen bg-gray-100">
+        <!-- Page Heading -->
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8 mobile-header">
+                <!--  > -->
+            </div>
+        </header>
+        <!-- Page Content -->
+        <main>
+            <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content" style="margin-top: 2%;">
+                <div class="container px-5 masthead-img" style="background-image: url('assets/images/contact/contactus.jpg')">
+                    <h1 class="masthead-heading mb-0 ">CONTACT US</h1>
+                    
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <div class="grey-bg" id="scroll">
+<div class="container p-5">
+<div class="row gx-5 align-items-center">
+<div class="col-lg-5 order-lg-2">
+<div class="p-1">
+<h2><span class="title-line-left-below">LAKMĒ SALON<br />
+QUERY/FEEDBACK</span></h2>
+
+<p><a href="tel:1800 123 1952">TOLL FREE: 1800 123 1952</a></p>
+
+<p>PO BOX NO 1470, MUMBAI 400099</p>
+
+<p><a href="mailto:CARE.LLPL@UNILEVER.COM" target="_self" title="">CARE.LLPL@UNILEVER.COM</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </main>
+    </div>
+    <footer class="py-5 bg-black">
+<div class="container px-5">
+   <div class="footer-logo">
+      <img src="assets/images/lakmelogo.png" alt="" width="10%">
+   </div>
+
+   <div class="footer-sitemap">
+      <div class="left-footer">
+         <div class="left-footer-menu">
+            <div class="richText-content"> 
+               <h5><a href="https://www.lakmesalon.in/about">About Us</a></h5> 
+            </div>
+            <div class="richText-content"> 
+               <h5><a href="https://www.lakmesalon.in/store-locator">Find Us</a></h5> 
+              </div>
+              <div class="richText-content"> 
+               <h5><a href="https://www.lakmesalon.in/careers">Careers</a></h5> 
+              </div>
+         </div>
+         
+         <div class="richText-content social-txt"> 
+            Stay up to date
+            <div class="social-icon">
+               <ul>
+                     <li>
+                        <a href="https://www.instagram.com/lakmesalon/" class="insta" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        
+                     </li>
+                     <li>
+                        <a href="https://www.facebook.com/LakmeSalon/" class="fb" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        
+                     </li>
+                     <li>
+                        <a href="https://twitter.com/LakmeSalon" class="tw" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                     </li>
+                     <li>
+                        <a href="https://in.linkedin.com/company/lakme-lever" class="li" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                     </li>
+                  </ul>
+            </div>
+         </div>
+      </div>
+      <div class="right-footer">
+         
+         <div class="richText-content"> 
+            <h5><a href="javascript:void(0);">Customer Service</a></h5> 
+            <ul>
+               <li>
+                     <a href="contact" rel="noopener, noreferrer">Contact Us</a>
+                  </li>
+            </ul>
+           </div>
+           <div class="richText-content"> 
+            <h5><a href="javascript:void(0);">Legal</a></h5>
+            <ul>
+                  <li>
+                     <a href="https://www.unilever.com/accessibility.html" target="_blank" rel="noopener, noreferrer">Accessibility</a>
+                  </li>
+                  <li>
+                     <a href="https://www.unilevernotices.com/cookie-notices/india-english.html" target="_blank" rel="noopener, noreferrer">Cookie Notice</a>
+                  </li>
+                  <li>
+                     <a href="https://www.lakmesalon.in/terms-conditions" rel="noopener, noreferrer">Terms & Conditions</a>
+                  </li>
+                  <li>
+                     <a href="https://www.lakmesalon.in/studio-terms-conditions" rel="noopener, noreferrer" target="_blank">Studio-Terms & Conditions</a>
+                  </li>
+                  <li>
+                     <a href="https://www.lakmesalon.in/sitemap" rel="noopener, noreferrer">Sitemap</a>
+                  </li>
+               </ul>
+           </div>
+      </div>
+   </div>
+</div>
+
+
+</footer>
+
+<div class="bottom-copy p-3">
+<div class="container px-5">
+   <div>
+      <p>&copy; 2024 Unilever. All rights reserved.<br> </p>
+   </div>
+   <div>
+      <ul>
+         <li><a href="/terms-conditions">Terms and Conditions</a></li>
+            <li><a href="https://www.unilevernotices.com/privacy-notices/india-english.html" target="_blank">Privacy Notice</a></li>
+         <li><a href="https://www.unilever.com/" target="_blank"><img src="assets/images/unilever-logo.png" alt="" width="40px"></a></li>
+      </ul>
+   </div>
+</div>
+</div>    <!--script src="https://www.lakmesalon.in/js/app.js" defer></script-->
+    <script src="https://www.lakmesalon.in/js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://www.lakmesalon.in/js/slick.js"></script>
+    <script src="https://www.lakmesalon.in/js/scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#stories-slider').slick();
+            $('#testimonial-slider').slick({
+                dots: true
+            });
+        })
+    </script>
+
+    <!-- OneTrust Cookies Consent Notice start for lakmesalon.in -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/5b9d9bc3-a266-48b2-a1a6-af9b78796226/OtAutoBlock.js" ></script>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="5b9d9bc3-a266-48b2-a1a6-af9b78796226" ></script>
+    <script type="text/javascript">
+    function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for lakmesalon.in -->
+
+
+</body>
+
+</html>

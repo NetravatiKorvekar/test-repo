@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}BLENZE Beauty Salon{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <a href="{{ url_for('index') }}">BLENZE</a>
+            </div>
+            <div class="menu">
+                <a href="{{ url_for('home') }}">HOME</a>
+                <a href="{{ url_for('about') }}">ABOUT</a>
+                <a href="{{ url_for('gallery') }}">GALLERY</a>
+                <a href="{{ url_for('contact') }}">CONTACT</a>
+                <a href="{{ url_for('book') }}">BOOK</a>
+            </div>  
+        </nav>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <hr>
+        <h2>BLENZE SALON</h2>
+        <hr>
+        <ul>
+            <li>
+                <button><a href="{{ url_for('home') }}">Home</a></button>&nbsp;&nbsp;
+                <button><a href="{{ url_for('about') }}">About Us</a></button>
+            </li>
+        </ul><br>
+        <div class="social-icons">
+            <button><a href="#"><i class="fa fa-instagram"></i></a></button>&nbsp;&nbsp;
+            <button><a href="#"><i class="fa fa-youtube"></i></a></button>&nbsp;&nbsp;
+            <button><a href="#"><i class="fa fa-facebook"></i></a></button>&nbsp;&nbsp;
+            <button><a href="#"><i class="fa fa-twitter"></i></a></button>
+        </div>
+    </footer>
+</body>
+</html>

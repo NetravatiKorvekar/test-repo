@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body{
+                background-color: black;
+            }
+            img{
+                height: 40vh;
+                width: 100vw;
+            }
+    
+            h2{
+                font-family: sans-serif;
+                font-weight: bolder;
+                color:rgb(255, 254, 254);
+                margin-bottom: 4vmin;
+               margin-top: 10vminss;
+            }
+            h3{
+                font-family: arial;
+                color:white;
+                margin-bottom: 7vmin;
+                letter-spacing: 2px;
+                cursor: pointer;
+            }
+            h3:hover{ color:red}
+.content{
+    margin-left: 5vmin;
+} 
+footer{
+    
+    height: 50vh;
+    width:100vw;
+    text-align: center;
+}
+footer h2{
+    color:white;
+    font-weight: bolder;
+   
+}
+footer ul {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    
+    font-size: 3vmin;
+}
+footer i{
+    color :white;
+} 
+button{
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color:rgb(252, 182, 194);
+}button:hover{
+    color:whitesmoke;
+}
+.social-icons{margin-left: 5vmin;}
+.social-icons i{
+            font-size:3vmin;
+            color:white;
+              }
+.social-icons i:hover{
+    color:rgb(250, 65, 225);
+}
+ .menu{
+   font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:aliceblue;
+    align-items: center;
+   padding:0 10px
+}
+.menu a:hover{
+    color:orange;
+}
+        </style>
+    </head>
+    <body>
+<header>
+   <!-- <img src="contact.png">
+</header>
+<header> -->
+    <img src="{{ url_for('static', filename='images/contact.png') }}" alt="Contact Us">
+</header>
+<div class="content">
+    <h2>BLENZE SALON<br><br>QUERY/FEEDBACK</h2><br>
+    <h3>TOLL FREE: 1000 123 1952</h3>
+    <h3>PO BOX NO 1470, KOLHAPUR 416007</h3>
+    <h3>CARE.LLPL@BLENZE.COM</h3>
+</div>
+<div class="menu">
+    <a href="beauty_home.html">HOME</a>
+    <a href="beauty_about.html">ABOUT</a>
+    <a href="beauty_gallery.html">GALLERY</a>
+    <a href="beauty_contact.html">CONTACT</a>
+</div>  
+<div class="content">
+    
+<h2>BLENZE SALON<br>
+<br>
+QUERY/FEEDBACK
+</h2>
+<br>
+
+<h3>
+TOLL FREE:  1000 123 1952</h3>
+
+<h3>PO BOX NO  1470, KOLHAPUR 416007</h3>
+<h3>
+CARE.LLPL@BLENZE.COM
+
+</h3></div>
+<footer>
+    <hr>
+    <h2>BLENZE SALON</h2>
+    <hr>
+       <ul> <li> <button><a href ="beauty_home.html">Home</a></button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp
+       <button> <a href="beauty_about.html">About Us</a></button></li>
+        
+       </ul><br>
+       <div class="social-icons">
+       <button> <a href="www.instagram.com"><i class="fa fa-instagram"></i></a></button>&nbsp &nbsp &nbsp 
+       <button> <a href="www.youtube.com"><i class="fa fa-youtube"></i></a></button>&nbsp &nbsp &nbsp 
+      <button>  <a href="www.facebook.com"><i class="fa fa-facebook"></i></a></button>&nbsp &nbsp &nbsp 
+       <button><a href="www.twitter.com"><i class="fa fa-twitter"></i></a></button> 
+    </div>
+
+</footer>
+    </body>
+</html>

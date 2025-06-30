@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>booking of beauty salon</title>
+    <style>
+      body {
+        padding-top: 5vw;
+        color: #010000;
+        background-color: black;
+        font-size: 1.5vw;
+      }
+      h2 {
+        color: rgb(252, 19, 97);
+      }
+      h2:hover {
+        color:black;
+      }
+      button{
+        background-color: rgb(253, 191, 201); 
+       color: #101010;
+       padding :0.5vw 0.8vw;
+       border-radius: 0.5vw;
+        
+      }
+      button:hover{
+        background-color: aliceblue;  
+      }
+      form {
+        padding-top: 7%;
+        height:30vw;
+        width: 40vw;
+        background-color:rgb(198, 255, 236);
+        border-color: red;
+        border-radius: 0.5vw;
+        
+      }
+      .icons ion-icon{
+    color: #0c0c0c;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon button{
+  background-color: pink;
+}
+.icons ion-icon:hover{
+    color: #edf7d5;
+}
+    </style>
+    <script>
+      function validform() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("cnum").value;
+
+        if (name.length == " ") {
+          alert("The name must be filled out !");
+          return false;
+        }
+        if (email.length == " ") {
+          alert("The email must be filled out!");
+          return false;
+        }
+        if (number.length != 10) {
+          alert("Please enter valid contact number !");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+           
+        <form onsubmit="return validform()">
+        <h2>Book Your Appointment</h2> 
+         Name:
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Name Here"
+          /><br /><br />
+          Email_id:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email Here"
+          /><br /><br />
+          Contact Number:
+          <input
+            type="number"
+            name="cnum"
+            id="cnum"
+            placeholder="Enter Number Here"
+          /><br /><br />
+
+          
+        <button type="submit">Submit</button>
+        <h3>Visit us at...</h3>
+
+        <div class="icons">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+      </div>
+      </form>
+    </center>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+  </body>
+</html>
