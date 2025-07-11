@@ -1,0 +1,120 @@
+openapi: 3.0.0
+info:
+  title: Course Details API
+  version: 1.0.0
+  description: API definitions for course content, module progress, and video playback.
+
+servers:
+  - url: https://yourapi.com/api/v1
+
+paths:
+  /player/{courseID}:
+    get:
+      summary: Get modules of course
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the course
+      responses:
+        '200':
+          description: Fetches course title, instructor, category, duration, and all module metadata (not the content itself)
+
+  /player/growth/{courseID}:
+    get:
+      summary: Get previously completed module number
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the course
+      responses:
+        '200':
+          description: Returns the last completed module number so the progress percentage of each module can be shown
+
+    post:
+      summary: Set current module as completed
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                moduleNumber:
+                  type: integer
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Triggered once the user completes the video, marking the module as done and updating progress percentage
+
+  /player/content/{courseID}/{moduleNumber}:
+    get:
+      summary: Get content of module
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: moduleNumber
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Get all the multimedia (video) content of the selected module in the course
+
+  /player/resume/{courseID}/{moduleNumber}:
+    get:
+      summary: Get saved video timestamp to resume playback
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: moduleNumber
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Returns the last saved playback position (in seconds or timestamp) of a module video so user can resume watching from that point
+
+    post:
+      summary: Save current playback timestamp of video
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                timestamp:
+                  type: number
+      parameters:
+        - in: path
+          name: courseID
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: moduleNumber
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Saves current timestamp every few seconds or on pause/exit, so the user can resume from the same spot later
